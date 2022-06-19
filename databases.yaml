@@ -1,0 +1,38 @@
+dev:
+  mysql:
+    host: xxx
+    port: xxx
+    user: xxx
+    password: xxx
+    db: xxx
+  es:
+    hosts: ['xxx', 'xxx']
+    port: xxx
+    doc_type: xxx
+    index_prefix: xxx
+
+test:
+  mysql:
+    host: xxx
+    port: xxx
+    user: xxx
+    password: xxx
+    db: xxx
+  es:
+    hosts: ['xxx', 'xxx']
+    port: xxx
+    doc_type: xxx
+    index_prefix: xxx
+
+prod:
+  mysql:
+    host: xxx
+    port: xxx
+    user: xxx
+    password: xxx
+    db: xxx
+  es:
+    hosts: ['xxx', 'xxx']
+    port: xxx
+    doc_type: xxx
+    index_prefix: xxx
