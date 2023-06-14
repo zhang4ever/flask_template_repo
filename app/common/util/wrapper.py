@@ -16,7 +16,3 @@ def singleton(cls):
         return instances[cls]
 
     return _singleton
-
-
-
-
