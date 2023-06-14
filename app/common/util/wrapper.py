@@ -1,4 +1,5 @@
 import threading
+import time
 
 
 def singleton(cls):
@@ -16,3 +17,16 @@ def singleton(cls):
         return instances[cls]
 
     return _singleton
+
+
+@singleton
+class A:
+    def __init__(self, arg):
+        time.sleep(1)
+
+a = A(1)
+b = A(1)
+
+assert a == b
+print(a)
+print(b)
